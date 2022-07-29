@@ -8,7 +8,9 @@ const Home = () => {
         <h1 className='font-bold text-3xl leading-normal'>I'm Mohamad Krayem</h1>
         <h1 className='font-bold text-6xl leading-normal text-amber-400'>Full-stack Developer</h1> 
         <h1 className='font-bold text-6xl leading-normal text-amber-400'>CS student</h1>
+        <button className='text-xl mt-3 bg-amber-400 rounded-full text-black px-6 py-4 border-2 border-solid border-transparent hover:border-inherit focus:border-sky-400'>Let's work together</button>
       </div>
+
     </div>
   )
 }
