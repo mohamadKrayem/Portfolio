@@ -3,7 +3,7 @@ import {WiMoonAltWaningCrescent1} from 'react-icons/wi';
 
 const Navbar = () => {
   return (
-    <nav className='flex py-6 px-32'>
+    <nav className='flex py-6 px-32 absolute h-fit w-full'>
 
       <h2 className='text-xl font-bold basis-2/5' >Mohamad</h2>
       
