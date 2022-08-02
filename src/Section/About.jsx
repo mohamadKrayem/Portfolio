@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../components/Button'
 import ListElement from '../components/ListElement'
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
         <ListElement Lkey="Place of birth" value="Lebanon"/>
         <ListElement Lkey="Email" value="Mohamadkrayem1244@hotmail.com"/>
         <ListElement Lkey="Phone" value="+961 3 639 845"/>
-        <button className='text-xl mt-3 bg-amber-400 rounded-full text-black px-5 py-3 border-2 border-solid border-transparent hover:border-inherit focus:border-sky-400'>Download CV</button>
+        <Button text="Download CV" px="px-5" py="py-3"/>
       </ul>
     </div>
   )
