@@ -2,9 +2,13 @@
 module.exports = {
   content:["./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:  {
+        "calc": "url('src/assets/CalculatorApp.jpg')",
+      }
+    },
     fontFamily: {
-      'poppins': ["Poppins", 'Arial', 'sans-serif'],
+      poppins: ["Poppins", 'Arial', 'sans-serif'],
     }
   },
   plugins: [],

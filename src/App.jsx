@@ -5,6 +5,7 @@ import Home from './Section/Home';
 import About from './Section/About';
 import Skills from './Section/Skills';
 import { Resume } from './Section/Resume';
+import Projects from './Section/Projects';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Resume />
+      <Projects />
     </div>
   )
 }
