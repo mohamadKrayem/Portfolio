@@ -7,6 +7,7 @@ import Skills from './Section/Skills';
 import { Resume } from './Section/Resume';
 import Projects from './Section/Projects';
 import Contact from './Section/Contact';
+import Footer from './Section/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Resume />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }

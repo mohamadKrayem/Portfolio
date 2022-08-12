@@ -4,7 +4,7 @@ import Button from '../components/Button'
 export const Resume = () => {
   return (
     <div className='flex flex-col justify-center items-center h-screen'>
-      <h1 className='font-bold text-5xl leading-normal w-80 mb-6'>Resume</h1>
+      <h1 className='font-bold text-5xl text-center leading-normal w-80 mb-6 font-["Poppins"]'>Resume</h1>
       <div className='w-[450px] bg-[#1a1a1a] p-6 mb-2 rounded-md'>
         <h1 className='font-bold text-4xl leading-normal text-amber-400'>2020 - 2023</h1>
         <h1 className='text-lg mb-3'>Bachelor Degree in Computer Science</h1>
