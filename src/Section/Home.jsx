@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 const Home = () => {
   return (
-    <div className='px-4 md:px-auto flex flex-col justify-center items-center h-screen'>
+    <div id='home' className='px-4 md:px-auto flex flex-col justify-center items-center h-screen'>
       <div className=''>
         <h1 className='text-amber-400 leading-10'>Hello !</h1>
         <h1 className='font-bold md:text-3xl text-2xl leading-normal'>I'm <span className='text-amber-400'>Mohamad Krayem</span></h1>

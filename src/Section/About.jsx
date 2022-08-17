@@ -4,7 +4,7 @@ import ListElement from '../components/ListElement'
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center items-center h-screen max-h-screen'>
+    <div id='about' className='flex flex-col justify-center items-center h-screen max-h-screen'>
       <h1 className='font-bold text-5xl leading-normal text-start w-80 mb-6 font-["Poppins"]'>About Me</h1>
         
       <ul className='text-lg font-medium w-max'>

@@ -4,7 +4,7 @@ import Project from '../components/Project'
 const Projects = () => {
 
   return (
-    <div className='flex flex-col justify-center items-center md:h-screen md:mb-auto mb-10'>
+    <div className='flex flex-col justify-center items-center md:h-screen md:mb-auto mb-10' id='projects'>
       <h1 className='font-bold text-5xl leading-normal w-80 mb-6 text-center font-["Poppins"] md:mb-auto mb-10'>My Projects</h1>
       <div className='flex items-center justify-start flex-wrap gap-5 w-4/5'>
         <Project title="Calculator" url="src/assets/CalculatorApp.jpg" repo="https://github.com/mohamadkrayem/calculator" demo="https://mocalculatorapp.netlify.app/"/>

@@ -5,7 +5,7 @@ import ContactComponent from '../components/ContactComponent';
 
 const Contact = () => {
   return (
-    <div className='flex flex-col justify-center items-center md:h-screen'>
+    <div id='contact' className='flex flex-col justify-center items-center md:h-screen'>
       <h1 className='font-bold text-5xl leading-normal w-80 md:mb-4 mb-10 mt-2 font-["Poppins"] text-center'>Contact me</h1>
       <div className='flex md:flex-raw flex-col justify-center items-center h-full md:gap-16 gap-4'>
         <div className='w-2/4 h-4/5 border-4 border-solid border-amber-400 rounded-full'>
