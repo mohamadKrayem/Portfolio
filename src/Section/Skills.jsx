@@ -3,8 +3,8 @@ import Skill from '../components/Skill'
 
 const Skills = () => {
   return (
-    <div id='skills' className='flex flex-col justify-center items-center md:h-screen'>
-      <h1 className='font-bold text-5xl leading-normal w-80 mb-6 text-center'>My Skills</h1>
+    <div id='skills' className='col-center md:h-screen md:gap-12'>
+      <h1 className='font-bold text-5xl leading-normal w-80 mb-6 text-center text-skin-secondary'>My Skills</h1>
       <div className='flex flex-wrap w-[80%] gap-5'>
         <Skill skill="HTML" percentage="90" width="w-4/5"/>
         <Skill skill='CSS' percentage='80' width='w-4/5'/>

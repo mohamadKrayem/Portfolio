@@ -12,7 +12,7 @@ import Footer from './Section/Footer';
 function App() {
 
   return (
-    <div className="bg-black text-white">
+    <div id="app" className="light-mode bg-skin-primary text-white">
       <Navbar />
       <Home />
       <About />

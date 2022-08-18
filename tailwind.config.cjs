@@ -1,15 +1,29 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content:["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
-      backgroundImage:  {
-        "calc": "url('src/assets/CalculatorApp.jpg')",
+      colors:{
+        "primary": "var(--mainBack-color)",
+        "secondary": "var(--titles-color)",
+        "third": "var(--amber-color)",
+      },
+      backgroundColor:{
+        skin:{
+          "primary": "var(--mainBack-color)",
+          "third": "var(--amber-color)",
+          "secondary": "var(--titles-color)",
+        }
+      },
+      textColor:{
+        skin:{
+          "primary": "var(--mainBack-color)",
+          "third": "var(--amber-color)",
+          "secondary": "var(--titles-color)",
+          "fourth": "var(--content-color)",
+        }
       }
     },
-    fontFamily: {
-      poppins: ["Poppins", 'Arial', 'sans-serif'],
-    }
   },
   plugins: [],
 }

@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  :root{
+    --titles-color: #ffffff;
+    --mainBack-color: rgb(0,0,0);
+    --amber-color: #FBBF24;
+    --content-color: #ffffffb3;
+  }
+
+  .dark-mode{
+    --titles-color: #ffffff;
+    --mainBack-color: rgb(0,0,0);
+    --amber-color: #FBBF24;
+    --content-color: #ffffffb3;
+  }
+
+  .light-mode{
+    --titles-color: #1E293B;
+    --mainBack-color: #ffffff;
+    --amber-color: #FBBF24;
+    --content-color: #94A3B8;
+  }
+}
+
+@layer components {
+  .col-center{
+    @apply flex flex-col justify-center items-center;
+  }
+
+  .row-center{
+    @apply flex flex-row justify-center items-center;
+  }
+
+  .service{
+    @apply list-none font-["Poppins"] text-xl text-skin-fourth mb-2;
+  }
+
+  .media{
+    @apply rounded-full bg-[#1a1a1a] w-14 h-14 row-center;
+  }
+
+  .nav-element{
+    @apply font-medium text-lg hover:text-skin-third text-skin-secondary cursor-pointer;
+  }
+
+  .footer-title{
+    @apply font-bold text-3xl leading-normal md:mb-10 mb-6 text-skin-secondary;
+  }
+}

@@ -5,15 +5,15 @@ import ContactComponent from '../components/ContactComponent';
 
 const Contact = () => {
   return (
-    <div id='contact' className='flex flex-col justify-center items-center md:h-screen'>
-      <h1 className='font-bold text-5xl leading-normal w-80 md:mb-4 mb-10 mt-2 font-["Poppins"] text-center'>Contact me</h1>
-      <div className='flex md:flex-raw flex-col justify-center items-center h-full md:gap-16 gap-4'>
-        <div className='w-2/4 h-4/5 border-4 border-solid border-amber-400 rounded-full'>
+    <div id='contact' className='col-center md:h-screen'>
+      <h1 className='font-bold text-5xl leading-normal w-80 md:mb-4 mb-10 mt-2 font-["Poppins"] text-center text-skin-secondary'>Contact me</h1>
+      <div className='col-center md:row-center h-full md:gap-16 gap-4'>
+        <div className='w-2/4 h-4/5 border-4 border-solid border-skin-third rounded-full'>
           <img src="/assets/profile.jpg" alt="Mohamad Krayem" srcset="" className='rounded-full w-full h-full border-2 border-solid border-black' />
         </div>
-        <div className='flex flex-wrap flex-col justify-center items-center md:gap-auto gap-4'>
-          <ContactComponent icon={<HiPhone className='md:text-4xl text-3xl text-amber-400'/>} title="Phone" element="+961 3 639 845" />
-          <ContactComponent icon={<SiMinutemailer className='md:text-4xl text-3xl text-amber-400'/>} title="Email" element="mohamadkrayem@yandex.com" />
+        <div className='col-center flex-wrap md:gap-auto gap-4'>
+          <ContactComponent icon={<HiPhone className='md:text-4xl text-3xl text-skin-third'/>} title="Phone" element="+961 3 639 845" />
+          <ContactComponent icon={<SiMinutemailer className='md:text-4xl text-3xl text-skin-third'/>} title="Email" element="mohamadkrayem@yandex.com" />
         </div>
       </div>
     </div>
