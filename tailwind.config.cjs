@@ -13,6 +13,8 @@ module.exports = {
           "primary": "var(--mainBack-color)",
           "third": "var(--amber-color)",
           "secondary": "var(--titles-color)",
+          "fourth": "var(--nav-color)",
+          "fifth": "var(--resume-color)",
         }
       },
       textColor:{

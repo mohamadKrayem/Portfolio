@@ -8,6 +8,8 @@
     --mainBack-color: rgb(0,0,0);
     --amber-color: #FBBF24;
     --content-color: #ffffffb3;
+    --nav-color: rgba(0,0,0,0.8);
+    --resume-color: #1a1a1a;
   }
 
   .dark-mode{
@@ -15,13 +17,17 @@
     --mainBack-color: rgb(0,0,0);
     --amber-color: #FBBF24;
     --content-color: #ffffffb3;
+    --nav-color: rgba(0,0,0,0.8);
+    --resume-color: #1a1a1a;
   }
 
   .light-mode{
     --titles-color: #1E293B;
     --mainBack-color: #ffffff;
     --amber-color: #FBBF24;
-    --content-color: #94A3B8;
+    --content-color: #64748B;
+    --nav-color: rgba(255,255,255,0.8);
+    --resume-color: #E2E8F0;
   }
 }
 

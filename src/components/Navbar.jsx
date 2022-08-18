@@ -27,7 +27,7 @@ const Navbar = () => {
         <span className="sr-only">Open main menu</span>
         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
       </button>
-      <ul id='menu' className={`invisible md:visible z-20 flex md:justify-between gap-12 md:gap-6 lg:gap-12 rounded-md h-full md:bg-transparent bg-[rgba(0,0,0,0.8)] w-full pl-8 pt-20 md:pt-0 lg:basis-3/5 md:basis-4/5 flex-col md:flex-row fixed md:static`}>
+      <ul id='menu' className={`invisible md:visible z-20 flex md:justify-between gap-12 md:gap-6 lg:gap-12 rounded-md h-full md:bg-transparent bg-skin-fourth w-full pl-8 pt-20 md:pt-0 lg:basis-3/5 md:basis-4/5 flex-col md:flex-row fixed md:static`}>
         <li className='nav-element'><a href='#home'>Home</a></li>
         <li className='nav-element'><a href='#about'>About</a></li>
         <li className='nav-element'><a href='#skills'>Skills</a></li>
