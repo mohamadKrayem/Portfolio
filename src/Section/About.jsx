@@ -13,7 +13,7 @@ const About = () => {
         <ListElement Lkey="Place of birth" value="Lebanon"/>
         <ListElement Lkey="Email" value="mohamadkrayem@yandex.com"/>
         <ListElement Lkey="Phone" value="+961 3 639 845"/>
-        <Button text="Download CV" px="px-5 md:slef-start w-48" py="py-3"/>
+        <Button url="/assets/resume.pdf" text="Download CV" px="px-5 md:slef-start w-48" py="py-3"/>
       </ul>
     </div>
   )
