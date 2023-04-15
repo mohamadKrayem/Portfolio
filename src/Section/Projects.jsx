@@ -46,7 +46,7 @@ const Projects = () => {
         />
         <Project
           title="Basic blogs-app"
-          url="/assets/requestcli.png"
+          url="/assets/blog.png"
           repo="https://github.com/mohamadKrayem/Blogs_application"
         />
       </div>
