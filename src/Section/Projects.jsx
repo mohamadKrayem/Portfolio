@@ -39,10 +39,15 @@ const Projects = () => {
           repo="https://github.com/mohamadkrayem/GithubSearchApp-React"
           demo="https://react-r97ktp.stackblitz.io/"
         />
-        <Project 
+        <Project
           title="RequestCLI"
           url="/assets/requestcli.png"
           repo="https://github.com/mohamadkrayem/requestcli"
+        />
+        <Project
+          title="Basic blogs-app"
+          url="/assets/requestcli.png"
+          repo="https://github.com/mohamadKrayem/Blogs_application"
         />
       </div>
     </div>
