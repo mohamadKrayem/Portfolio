@@ -2,6 +2,7 @@ import { HiPhone } from "react-icons/hi"
 import { SiMinutemailer } from "react-icons/si"
 import { BsInstagram, BsTwitter } from 'react-icons/bs';
 import { ImFacebook } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -28,6 +29,11 @@ const Footer = () => {
             <div className="media">
               <a href="https://www.facebook.com/profile.php?id=100080223470282">
               <ImFacebook className="text-2xl text-skin-fourth " />
+              </a>
+            </div>
+            <div className="media">
+              <a href="https://github.com/mohamadkrayem/">
+              <ImGithub className="text-2xl text-skin-fourth " />
               </a>
             </div>
           </div>

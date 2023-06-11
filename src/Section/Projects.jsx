@@ -1,14 +1,18 @@
-import React from 'react'
-import Project from '../components/Project'
+import React from "react";
+import Project from "../components/Project";
 
 const Projects = () => {
-
   return (
     <div className="col-center md:h-screen md:mb-12 mb-10" id="projects">
       <h1 className='font-bold text-5xl leading-normal w-80 mb-6 text-center font-["Poppins"] md:mb-12 mb-10 text-skin-secondary'>
         My Projects
       </h1>
       <div className="row-center flex-wrap gap-5 w-4/5">
+        <Project
+          title="RequestCLI"
+          url="/assets/requestcli.png"
+          repo="https://github.com/mohamadkrayem/requestcli"
+        />
         <Project
           title="Calculator"
           url="/assets/CalculatorApp.jpg"
@@ -40,11 +44,6 @@ const Projects = () => {
           demo="https://react-r97ktp.stackblitz.io/"
         />
         <Project
-          title="RequestCLI"
-          url="/assets/requestcli.png"
-          repo="https://github.com/mohamadkrayem/requestcli"
-        />
-        <Project
           title="Basic blogs-app"
           url="/assets/blog.png"
           repo="https://github.com/mohamadKrayem/Blogs_application"
@@ -52,6 +51,6 @@ const Projects = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;

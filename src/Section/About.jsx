@@ -11,9 +11,9 @@ const About = () => {
         <ListElement Lkey="Name" value="Mohamad Krayem"/>
         <ListElement Lkey="Date of birth" value="May 30, 2002"/>
         <ListElement Lkey="Place of birth" value="Lebanon"/>
-        <ListElement Lkey="Email" value="mohamadkrayem@yandex.com"/>
+        <ListElement Lkey="Email" value="mohamadkrayem@email.com"/>
         <ListElement Lkey="Phone" value="+961 3 639 845"/>
-        <Button url="/assets/resume.pdf" text="Download CV" px="px-5 md:slef-start w-48" py="py-3"/>
+        <Button url="../assets/Resume.pdf" text="Download CV" px="px-5 md:slef-start w-48" py="py-3"/>
       </ul>
     </div>
   )

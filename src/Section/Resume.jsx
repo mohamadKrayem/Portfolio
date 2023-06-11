@@ -24,7 +24,7 @@ export const Resume = () => {
           Science" major, and hopefully, it is a great journey to be.
         </p>
       </div>
-      <Button url="/assets/resume.pdf" text="Download CV" px="px-5" py="py-3" />
+      <Button url="../assets/Resume.pdf" text="Download CV" px="px-5" py="py-3" />
     </div>
   );
 }

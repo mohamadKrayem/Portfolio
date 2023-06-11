@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
         <div className='col-center flex-wrap md:gap-auto gap-4'>
           <ContactComponent icon={<HiPhone className='md:text-4xl text-3xl text-skin-third'/>} title="Phone" element="+961 3 639 845" />
-          <ContactComponent icon={<SiMinutemailer className='md:text-4xl text-3xl text-skin-third'/>} title="Email" element="mohamadkrayem@yandex.com" />
+          <ContactComponent icon={<SiMinutemailer className='md:text-4xl text-3xl text-skin-third'/>} title="Email" element="mohamadkrayem@email.com" />
         </div>
       </div>
     </div>
